@@ -4,6 +4,6 @@ services:
   fastapi:
     build: .
     ports:
-      - "8081:8000"
+      - "8088:8000"
     volumes:
       - .:/app
